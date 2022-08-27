@@ -129,7 +129,7 @@
             this.label1.Size = new System.Drawing.Size(256, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // tableLayoutPanel4
@@ -154,7 +154,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(256, 180);
             this.tableLayoutPanel4.TabIndex = 1;
@@ -210,18 +210,14 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(0, 132);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.MaximumSize = new System.Drawing.Size(0, 28);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(256, 28);
+            this.button1.Size = new System.Drawing.Size(256, 30);
             this.button1.TabIndex = 4;
             this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = false;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Login
             // 
