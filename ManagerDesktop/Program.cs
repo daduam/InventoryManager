@@ -16,7 +16,7 @@ namespace ManagerDesktop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ProductCategories());
+            Application.Run(new Users());
         }
     }
 }
